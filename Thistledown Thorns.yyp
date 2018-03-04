@@ -965,7 +965,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_parent_depth\/obj_parent_depth.yy",
+                "resourcePath": "objects\/par_depth\/par_depth.yy",
                 "resourceType": "GMObject"
             }
         },
