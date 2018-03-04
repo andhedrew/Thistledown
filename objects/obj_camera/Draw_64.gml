@@ -25,7 +25,7 @@ if(debug){
 			draw_text(gw-10, 10+(i*30), "Choice = "+string(choice)); i++;
 		}
 	}
-	with(obj_examplechar){
+	with(obj_bob){
 		i++;
 		draw_text(gw-10, 10+(i*30), "choice_variable = "+string(choice_variable)); i++;
 	}

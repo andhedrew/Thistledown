@@ -1,4 +1,5 @@
 /// @description Move Bob
+event_inherited();
 
 x += move;
 if((move != 0) and (x == p1 or x == p2)){

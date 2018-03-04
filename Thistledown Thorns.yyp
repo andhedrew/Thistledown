@@ -452,7 +452,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_susan\/obj_susan.yy",
+                "resourcePath": "objects\/obj_player\/obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -530,25 +530,6 @@
                 ],
                 "resourcePath": "sounds\/snd_moveselect\/snd_moveselect.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "45f37156-102b-44af-ae46-9d89960d63b3",
-            "Value": {
-                "id": "de87fd15-3666-44da-89c0-76e7f29a4947",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/obj_player\/obj_player.yy",
-                "resourceType": "GMObject"
             }
         },
         {

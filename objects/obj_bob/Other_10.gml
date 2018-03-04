@@ -41,7 +41,7 @@ switch(choice_variable){
 		myTypes[i]		= 1;
 		myNextLine[i]	= [4,5];
 		myChangeVars[i] = [id, "choice_variable", ["blue", "green"]];
-		mySpeaker[i]	= obj_player;
+		mySpeaker[i]	= obj_bob;
 
 		//Line 4
 		i++;

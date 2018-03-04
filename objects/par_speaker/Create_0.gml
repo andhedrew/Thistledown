@@ -1,7 +1,7 @@
 
 //-----------Customise (FOR USER)
 playerobject = obj_player;
-interact_key = ord("E");
+interact_key = vk_space;
 detection_radius = 32;
 
 myVoice			= snd_voice1;
