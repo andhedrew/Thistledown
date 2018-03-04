@@ -267,6 +267,25 @@
             }
         },
         {
+            "Key": "19677ae2-dfa4-4ce7-ab91-837196cc5f56",
+            "Value": {
+                "id": "a753ea9b-6bd1-4033-8fe2-1cfb9ed9553b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/ShadowsTest\/ShadowsTest.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b8f7a0c-8cc0-4e13-8ef9-5407c777b799",
             "Value": {
                 "id": "134ef8a9-95bf-42dd-bf5f-3d52d333e6ec",
