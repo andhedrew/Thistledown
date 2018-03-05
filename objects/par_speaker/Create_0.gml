@@ -1,3 +1,4 @@
+event_inherited();
 
 //-----------Customise (FOR USER)
 playerobject = obj_player;
