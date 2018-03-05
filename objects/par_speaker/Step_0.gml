@@ -1,3 +1,5 @@
+event_inherited();
+
 var dr = detection_radius;
 if(point_in_rectangle(playerobject.x, playerobject.y, x-dr, y-dr, x+dr, y+dr)){
 	if(myTextbox != noone){ 

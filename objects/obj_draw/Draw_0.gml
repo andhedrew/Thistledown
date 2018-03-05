@@ -7,7 +7,7 @@ if(ds_exists(ds_depthgrid, ds_type_grid)){
 	var depthgrid = ds_depthgrid;
 	
 	//get the number of instances (number of children)
-	var instNum = instance_number(obj_parent_depth);
+	var instNum = instance_number(par_depth);
 	
 	//resize the grid to the number of instances/children
 	ds_grid_resize(depthgrid, 2, instNum);
@@ -16,7 +16,7 @@ if(ds_exists(ds_depthgrid, ds_type_grid)){
 	var yy = 0;
 	
 	//add all the instances/children to the grid, and their corresponding y value
-	with(obj_parent_depth){
+	with(par_depth){
 		depthgrid[# 0,yy] = id;
 		depthgrid[# 1,yy] = y;
 		yy += 1;
