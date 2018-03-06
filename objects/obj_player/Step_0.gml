@@ -16,8 +16,6 @@ input_down = keyboard_check(vk_down);
 moveX = 0;
 moveY = 0;
 
-
-
 //---------------------INTENDED MOVEMENT
 moveX = (input_right - input_left) * spd;
 
@@ -73,7 +71,6 @@ if(moveY != 0){
 
 
 //---------------------APPLY MOVEMENT
-
 x += moveX;
 y += moveY;
 
