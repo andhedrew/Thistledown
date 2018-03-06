@@ -20,7 +20,26 @@ moveY = 0;
 
 //---------------------INTENDED MOVEMENT
 moveX = (input_right - input_left) * spd;
-if(moveX == 0) {moveY = (input_down - input_up) * spd;}
+
+if(moveX == 0) {
+	moveY = (input_down - input_up) * spd;
+	if (moveY < 0) {
+		sprite_index = spr_player_up;
+		image_speed = .5;
+	} else if (moveY > 0) {
+		sprite_index = spr_player;
+		image_speed = .5;
+	}
+} else {
+		sprite_index = spr_player_side;
+		image_xscale = sign(moveX);
+		image_speed = .5;
+}
+
+if (moveX + moveY = 0){
+	image_speed = 0;
+	image_index = 0;
+}
 
 
 //---------------------COLLISION CHECKS
