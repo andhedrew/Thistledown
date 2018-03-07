@@ -1060,7 +1060,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/rm_0\/rm_0.yy",
+                "resourcePath": "rooms\/Start\/Start.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1404,6 +1404,25 @@
                 ],
                 "resourcePath": "tilesets\/tile_1\/tile_1.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "dc201fa0-383d-4d2f-b748-f40731aeb6c4",
+            "Value": {
+                "id": "4ff7fa5e-6e0c-4cb4-afb5-ca8f4a684457",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/camera\/camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
