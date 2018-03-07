@@ -1,6 +1,7 @@
 /// @description Move Player
 
 
+
 //Shortcut to Quit
 if(keyboard_check_pressed(vk_escape)){ game_end(); }
 
@@ -17,28 +18,31 @@ moveX = 0;
 moveY = 0;
 
 //---------------------INTENDED MOVEMENT
-moveX = (input_right - input_left) * spd;
 
-if(moveX == 0) {
-	moveY = (input_down - input_up) * spd;
-	if (moveY < 0) {
-		sprite_index = spr_player_up;
-		image_speed = .5;
-	} else if (moveY > 0) {
-		sprite_index = spr_player;
-		image_speed = .5;
-	}
+moveY = (input_down - input_up) * spd;
+if(moveY == 0) { moveX = (input_right - input_left) * spd; }
+
+
+//---------------------SPRITES
+//Change sprite_index per direction facing
+if (moveX > 0) {
+	sprite_index = spr_player_side
+	image_speed = .5;
+	image_xscale = 1;
+} else if (moveX < 0) {
+	sprite_index = spr_player_side
+	image_speed = .5;
+	image_xscale = -1;
+} else if (moveY > 0) {
+	sprite_index = spr_player
+	image_speed = .5;
+} else if (moveY < 0) {
+	sprite_index = spr_player_up
+	image_speed = .5;
 } else {
-		sprite_index = spr_player_side;
-		image_xscale = sign(moveX);
-		image_speed = .5;
-}
-
-if (moveX + moveY = 0){
-	image_speed = 0;
 	image_index = 0;
+	image_speed = 0;
 }
-
 
 //---------------------COLLISION CHECKS
 //Horizontal
@@ -78,3 +82,5 @@ y += moveY;
 var xbuf=37; var ybuf = 34;
 x = clamp(x, xbuf, room_width-xbuf); 
 y = clamp(y, ybuf, room_height-ybuf+2);
+
+
